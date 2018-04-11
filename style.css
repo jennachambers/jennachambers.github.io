@@ -1,0 +1,121 @@
+  /* Add a little space under the navbar */
+  .navbar {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Avenir';
+    position: fixed;
+    z-index: 99;
+  }
+  /* Make an image background for a section */
+  .background-1 {
+    background: url('nature.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: darkgrey 1px 1px 3px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  p {
+    font-size: 20px;
+    font-family: 'Avenir';
+  }
+  h3 {
+    font-size: 100px;
+    font-family: 'Avenir';
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: gray;
+  }
+   h5 {
+    font-family: 'Avenir';
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    margin-top: 60px;
+  }
+   p {
+    font-family: 'Avenir';
+    margin-left: : 40px;
+    margin-right: 40px; 
+    color: gray;
+  }
+ 
+  h4 {
+  font-family: 'Avenir'
+  padding-left: 40px;
+
+  }
+
+.mystory_paragraph {
+  font-family: 'Avenir';
+  padding-top: 30px;
+
+}
+
+.mywork_headline {
+font-family: 'Avenir';
+padding-top: 30px;
+
+}
+
+ html, body {
+  height: 100%;
+ }
+
+
+  .sect {
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .subsection {
+    height: 100%;
+    background-color: white;
+    font-family: 'Avenir';
+    padding-left: 40px;
+    padding-top: 50px;
+    color: gray;
+    font-size: 100px;
+
+  }
+
+  .subsection img {
+    float: right;
+    padding-right: 20px;
+  }
+
+  .row {
+  height: 100%;
+  background-color: white;
+  font-family: 'Avenir';
+  padding-left: 20px;
+  padding-top: 50px;
+  color: gray;
+  font-size: 20px;
+
+  }
+
+  .row img {
+  padding-left: 20px;
+  padding-top: 50px;
+  padding-right:20px;
+  font-size: 30px;
+
+  }
+
+  .sectOne {
+    background-image: url("data_words.jpg");
+
+  }
+
+  .sectTwo {
+    background-image: url("data_words1.jpg");
+
+  }
+
+ 
+
