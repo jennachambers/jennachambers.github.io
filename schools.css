@@ -1,0 +1,84 @@
+/* Add a little space under the navbar */
+  .navbar {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-family: 'Avenir';
+    position: fixed;
+    z-index: 99;
+  }
+body, html {
+    height: 100%;
+}
+
+.bg { 
+    /* The image used */
+    background-image: url("boy.jpg");
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: white;
+
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.schools_story {
+	font-family: 'Avenir';
+  	padding-top: 30px;
+  	padding-right: 50px;
+  	padding-left: 50px;
+}
+
+/*
+p {
+    font-size: 50px;
+    font-family: 'Avenir';
+  }
+
+
+
+
+
+  /* Make an image background for a section 
+  .background-1 {
+    background: url('boy.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: darkgrey 1px 1px 3px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .container {
+  background-size: cover;
+  color: white;
+  text-shadow: darkgrey 1px 1px 3px;
+  padding-top: 0px;
+  padding-bottom: 100px;
+
+}
+
+html, body {
+height: 100%;
+
+}
+  .bg {
+  background: url('boy.jpg')
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
